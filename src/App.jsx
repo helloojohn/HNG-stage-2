@@ -1,12 +1,14 @@
-
+// import bg from './assets/bg-image.png'
 function App() {
 
-
+  const bgStyle = {
+    backgroundColor: '#1aac48',
+  }
   return (
     <>
-      <div>
-          <h1>Hello World</h1>
-      </div>
+      <header style={bgStyle}>
+        HELLO
+      </header>
     </>
   )
 }
